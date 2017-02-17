@@ -80,4 +80,4 @@ for i in range(len(sl)):
 nl = sorted(nl,key=itemgetter(5))
 
 for x in range(len(nl)):
-    print "\"", nl[-(x+1)][4].get_pid(), "\", \"", nl[-(x+1)][4].get_laddr(), "\", \"",nl[-(x+1)][4].get_raddr(), "\", \"",nl[-(x+1)][4].get_status(),"\""
+    print "\"", nl[-(x+1)][4].get_pid(), "\",\"", nl[-(x+1)][4].get_laddr(), "\",\"",nl[-(x+1)][4].get_raddr(), "\",\"",nl[-(x+1)][4].get_status(),"\""
